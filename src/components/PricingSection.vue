@@ -5,7 +5,7 @@
         <v-col cols="10">
           <v-card style="width: 100%">
             <h1 class="text-center pt-6 font-weight-light display-2">NFTs</h1>
-            <h2 class="text-center pt-3 font-weight-light display-1">An example of each NFT Jaleh has made that will ship with the original work!</h2>
+            <h2 class="text-center pt-3 font-weight-light display-1 ml-5 mr-5">An example of each NFT Jaleh has made that will ship with the original work. They are represented by the AOJ token on the Polygon blockchain.</h2>
             <v-divider class="my-6"></v-divider>
             <v-row class="text-center">
               <v-col class="col-12 col-sm-6 col-md-4">
@@ -26,7 +26,12 @@
                     <!-- <v-divider class="my-2"/> -->
                     <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">Matic 15</div>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">
+                      <v-img
+                    src="@/assets/img/icon2.svg"
+                    max-width="20px"
+                    class="mr-2"
+                  />Matic 15</div>
                     <v-btn
                         v-bind="size"
                         rounded
@@ -59,7 +64,12 @@
                    <!--  <v-divider class="my-2"/> -->
                     <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">Matic 10</div>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">
+                    <v-img
+                    src="@/assets/img/icon2.svg"
+                    max-width="20px"
+                    class="mr-2"
+                  />Matic 10</div>
                     <a href="https://opensea.io/">
                     <v-btn
                         v-bind="size"
@@ -96,7 +106,12 @@
                     <!-- <v-divider class="my-2"/> -->
                     <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">Matic 5</div>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">
+                    <v-img
+                    src="@/assets/img/icon2.svg"
+                    max-width="20px"
+                    class="mr-2"
+                  />Matic 5</div>
                     <v-btn
                         v-bind="size"
                         rounded

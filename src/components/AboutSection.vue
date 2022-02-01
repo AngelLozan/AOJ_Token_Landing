@@ -6,8 +6,8 @@
           <v-row align="center" justify="center">
             <v-col cols="12" md="7">
               <h1 class="font-weight-light display-2">About the AOJ Token</h1>
-              <h1 class="font-weight-light display-1 mb-3">
-                Each work of art is unique, ownership is provable and transferrable!
+              <h1 class="font-weight-light display-0 mb-3">
+                Each work of art is unique, ownership is provable and transferrable. Click the AOJ token icon at top left to see the contract on Polygon.
               </h1>
               <v-row>
                 <v-col cols="12" class="d-flex align-center">
