@@ -4,28 +4,29 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-card style="width: 100%">
-            <h1 class="text-center pt-6 font-weight-light display-2">Planos</h1>
+            <h1 class="text-center pt-6 font-weight-light display-2">NFTs</h1>
+            <h2 class="text-center pt-3 font-weight-light display-1">An example of each NFT Jaleh has made that will ship with the original work!</h2>
             <v-divider class="my-6"></v-divider>
             <v-row class="text-center">
               <v-col class="col-12 col-sm-6 col-md-4">
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
-                      <div class="circle1">
-                        <div class="circle2">
-                          <v-img src="~@/assets/img/paperplane.svg"></v-img>
-                        </div>
-                      </div>
+                      <!-- <div class="circle1">
+                        <div class="circle2"> -->
+                          <v-img src="~@/assets/img/IMG_2867_Original.jpg"></v-img>
+                        <!-- </div>
+                      </div> -->
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Básico</div>
+                    <div class="text--disabled text-uppercase text-h5 my-2">Spirit of Community</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Domínios personalizados</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Limite de 1000 acessos diários</div>
-                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Acryllic on canvas</div>
+                    <!-- <v-divider class="my-2"/> -->
+                    <div class="text-uppercase blue--text">Depicts a marketplace</div>
+                    <!-- <v-divider class="my-2"/> -->
                     <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 20,00</div>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">Matic 15</div>
                     <v-btn
                         v-bind="size"
                         rounded
@@ -33,7 +34,7 @@
                         color="blue"
                         class="mt-6"
                     >
-                      Comece Agora!
+                     <a href="https://opensea.io/">Purchase</a>
                     </v-btn>
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
@@ -44,21 +45,22 @@
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
-                      <div class="circle1">
-                        <div class="circle2">
-                          <v-img src="~@/assets/img/airplane.svg"/>
-                        </div>
-                      </div>
+                      <!-- <div class="circle1">
+                        <div class="circle2"> -->
+                          <v-img src="~@/assets/img/IMG_2377_Original.jpg"/>
+                        <!-- </div>
+                      </div> -->
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Padrão</div>
+                    <div class="text--disabled text-uppercase text-h5 my-2">Darker Spirits</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Domínios personalizados</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Limite de 10000 acessos diários</div>
-                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Acryllic on black canvas</div>
+                    <!-- <v-divider class="my-2"/> -->
+                    <div class="text-uppercase blue--text">Depicts a gathering of women</div>
+                   <!--  <v-divider class="my-2"/> -->
                     <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 100,00</div>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">Matic 10</div>
+                    <a href="https://opensea.io/">
                     <v-btn
                         v-bind="size"
                         rounded
@@ -66,8 +68,9 @@
                         color="blue"
                         class="mt-6"
                     >
-                      Comece Agora!
+                      Purchase
                     </v-btn>
+                  </a>
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.mdAndUp"></v-divider>
                 </div>
@@ -79,21 +82,21 @@
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
-                      <div class="circle1">
-                        <div class="circle2">
-                          <v-img src="~@/assets/img/aeroplane.svg"/>
-                        </div>
-                      </div>
+                      <!-- <div class="circle1">
+                        <div class="circle2"> -->
+                          <v-img src="~@/assets/img/black.jpeg"/>
+                       <!--  </div>
+                      </div> -->
                     </div>
                     <div class="text--disabled text-uppercase text-h5 my-2">Empresarial</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Domínios personalizados</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Acessos ilimitados</div>
-                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Acryllic on canvas</div>
+                    <!-- <v-divider class="my-2"/> -->
+                    <div class="text-uppercase blue--text">Depicts a group of people talking</div>
+                    <!-- <v-divider class="my-2"/> -->
                     <div class="text-uppercase blue--text">Outras características...</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 500,00</div>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">Matic 5</div>
                     <v-btn
                         v-bind="size"
                         rounded
@@ -101,7 +104,7 @@
                         color="blue"
                         class="mt-6"
                     >
-                      Comece Agora!
+                      <a href="https://opensea.io/">Purchase</a>
                     </v-btn>
                   </v-card-text>
                 </div>

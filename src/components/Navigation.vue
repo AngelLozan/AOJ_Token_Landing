@@ -49,7 +49,9 @@
       :class="{ expand: flat }"
     >
       <v-toolbar-title>
+        <a href="https://polygonscan.com/token/0x2562ffa357fbdd56024aea7d8e2111ad299766c9">
         <v-img src="@/assets/img/logo.png" max-width="50px" />
+      </a>
       </v-toolbar-title>
       <v-spacer />
       <v-app-bar-nav-icon
@@ -62,16 +64,16 @@
           <span class="mr-2">Home</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#features')">
-          <span class="mr-2">Sobre</span>
+          <span class="mr-2">About</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#download')">
-          <span class="mr-2">Download</span>
+          <span class="mr-2">Shop</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#pricing')">
-          <span class="mr-2">Preços</span>
+          <span class="mr-2">NFTs</span>
         </v-btn>
         <v-btn rounded outlined text @click="$vuetify.goTo('#contact')">
-          <span class="mr-2">Contate-nos</span>
+          <span class="mr-2">Contact Me</span>
         </v-btn>
       </div>
     </v-app-bar>

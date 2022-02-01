@@ -1,15 +1,16 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
+    <v-parallax dark src="@/assets/img/bgHero.png" height="850">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">Vuetify.js</h1>
+              <h1 class="display-2 font-weight-bold mb-4">AOJ Token Launch</h1>
               <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur <br />
-                adipisicing elit. Maiores porro voluptatibus <br />
-                delectus nam optio harum!
+                Jaleh Sadravi works out <br /> of her home studio <br /> 
+                and participates in several <br />
+                 group and solo exhibitions <br /> each year. 
+                 Her work is <br /> found in collections around <br /> the world.  <br />
               </h1>
               <v-btn
                 rounded
@@ -19,7 +20,7 @@
                 @click="$vuetify.goTo('#features')"
                 class="mt-5"
               >
-                Saiba mais
+                Learn More
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
               </v-btn>
               <div class="video d-flex align-center py-4">
@@ -62,7 +63,7 @@
                     />
                   </svg>
                 </a>
-                <p class="subheading ml-2 mb-0">Assista o vídeo</p>
+                <p class="subheading ml-2 mb-0">My work</p>
               </div>
             </v-col>
             <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down"> </v-col>
@@ -134,22 +135,25 @@ export default {
   data() {
     return {
       dialog: false,
-      videoId: "i8IvvHJssWE",
+      videoId: "iq21t-PKcUo",
       features: [
         {
           img: require("@/assets/img/icon2.png"),
-          title: "Design Limpo",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          title: "Launched on Polygon",
+          text: "Fast & Affordable Transactions",
+          url: "https://blog.polygon.technology/sails-up-on-the-opensea-nft-marketplace-opensea-comes-to-polygon/#:~:text=OpenSea%20is%20sailing%20to%20new,all%20be%20art%20patrons%20now.&text=OpenSea%20is%20the%20world's%20first,and%20discover%20exclusive%20digital%20assets."
         },
         {
           img: require("@/assets/img/icon1.png"),
-          title: "Dados Seguros",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          title: "Listed on OpenSea",
+          text: "Listed on OpenSea, worlds leading Ethereum & Polygon NFT platform.",
+          url: "https://opensea.io/"
         },
         {
           img: require("@/assets/img/icon3.png"),
-          title: "Código Aberto",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          title: "AOJ NFTs are now on Solana!",
+          text: "One of the fastest growing and transacting NFT markets in the world.",
+          url: "https://magiceden.io/"
         },
       ],
     };
