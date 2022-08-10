@@ -2,8 +2,8 @@
 
 ## A landing page linked to digital collectibles and associated with an NFT domain itself. 
 
-## Netlify page hosted in case artist community could not resolve NFT domain: https://aoj.netlify.app/
-## NFT domain on Polygon: http://theartofjaleh.nft/
+Netlify page hosted in case artist community could not resolve NFT domain: https://aoj.netlify.app/
+NFT domain on Polygon: http://theartofjaleh.nft/
 
 #### Page built with vue and vuetify.
 
