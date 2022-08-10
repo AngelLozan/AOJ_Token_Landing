@@ -4,8 +4,8 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-card style="width: 100%">
-            <h1 class="text-center pt-6 font-weight-light display-2">NFTs</h1>
-            <h2 class="text-center pt-3 font-weight-light display-1 ml-5 mr-5">An example of each NFT Jaleh has made that will ship with the original work. They are represented by the AOJ token on the Polygon blockchain.</h2>
+            <h1 class="text-center pt-6 font-weight-light display-2">Featured NFTs</h1>
+            <h2 class="text-center pt-3 font-weight-light display-1 ml-5 mr-5">Top listed NFTs by popularity. If purchasing AOJ NFTs listed as shipping with the original work you can opt to contact the artist and provide the shipping address. Each NFT is represented by the AOJ token on the Polygon blockchain.</h2>
             <v-divider class="my-6"></v-divider>
             <v-row class="text-center">
               <v-col class="col-12 col-sm-6 col-md-4">
@@ -14,24 +14,30 @@
                     <div class="flex-center">
                       <!-- <div class="circle1">
                         <div class="circle2"> -->
-                          <v-img src="~@/assets/img/IMG_2867_Original.jpg"></v-img>
+                          <v-img src="~@/assets/img/legacy.jpg"></v-img>
                         <!-- </div>
                       </div> -->
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Spirit of Community</div>
+                    <br/>
+                    <div class="text--disabled text-uppercase text-h5 my-2">Legacy of Our Ancestors</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Acryllic on canvas</div>
                     <!-- <v-divider class="my-2"/> -->
-                    <div class="text-uppercase blue--text">Depicts a marketplace</div>
+                    <div class="text-uppercase blue--text">Pick your canvas size</div>
                     <!-- <v-divider class="my-2"/> -->
-                    <div class="text-uppercase blue--text">Outras características...</div>
+                
                     <v-divider class="my-2"/>
                     <div class="text-uppercase text-h4 mt-6 blue--text">
-                      <v-img
+                  <v-img
+                    src="@/assets/img/eth.png"
+                    max-width="20px"
+                    class="mr-2"
+                  /> <v-img
                     src="@/assets/img/icon2.svg"
                     max-width="20px"
                     class="mr-2"
-                  />Matic 15</div>
+                  /> 1 ETH
+                  </div>
                     <v-btn
                         v-bind="size"
                         rounded
@@ -39,7 +45,7 @@
                         color="blue"
                         class="mt-6"
                     >
-                     <a href="https://opensea.io/">Purchase</a>
+                     <a style="text-decoration:none" href="https://opensea.io/assets/matic/0x2562ffa357fbdd56024aea7d8e2111ad299766c9/14">Purchase</a>
                     </v-btn>
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
@@ -52,25 +58,35 @@
                     <div class="flex-center">
                       <!-- <div class="circle1">
                         <div class="circle2"> -->
-                          <v-img src="~@/assets/img/IMG_2377_Original.jpg"/>
+                          <v-img src="~@/assets/img/joy.jpg"/>
                         <!-- </div>
                       </div> -->
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Darker Spirits</div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div class="text--disabled text-uppercase text-h5 my-2">Joy in Community</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Acryllic on black canvas</div>
+                    <div class="text-uppercase blue--text">Acryllic on canvas</div>
                     <!-- <v-divider class="my-2"/> -->
-                    <div class="text-uppercase blue--text">Depicts a gathering of women</div>
+                    <div class="text-uppercase blue--text">Ships with Original</div>
+                  
                    <!--  <v-divider class="my-2"/> -->
-                    <div class="text-uppercase blue--text">Outras características...</div>
+                   <div class="text-uppercase blue--text">All AOJ NFTs are also available for purchase on JalehsArt.com and via her shop on Etsy</div>
+                   
                     <v-divider class="my-2"/>
                     <div class="text-uppercase text-h4 mt-6 blue--text">
                     <v-img
+                    src="@/assets/img/eth.png"
+                    max-width="20px"
+                    class="mr-2"
+                  /> <v-img
                     src="@/assets/img/icon2.svg"
                     max-width="20px"
                     class="mr-2"
-                  />Matic 10</div>
-                    <a href="https://opensea.io/">
+                  /> 1 ETH
+                    </div>
+                    <a style="text-decoration:none" href="https://opensea.io/assets/matic/0x2562ffa357fbdd56024aea7d8e2111ad299766c9/15">
                     <v-btn
                         v-bind="size"
                         rounded
@@ -94,24 +110,29 @@
                     <div class="flex-center">
                       <!-- <div class="circle1">
                         <div class="circle2"> -->
-                          <v-img src="~@/assets/img/black.jpeg"/>
+                          <v-img src="~@/assets/img/Tied.jpg"/>
                        <!--  </div>
                       </div> -->
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Empresarial</div>
+                    <div class="text--disabled text-uppercase text-h5 my-2">Tied Together by our Love</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Acryllic on canvas</div>
                     <!-- <v-divider class="my-2"/> -->
-                    <div class="text-uppercase blue--text">Depicts a group of people talking</div>
+                    <div class="text-uppercase blue--text">Pick your canvas size</div>
                     <!-- <v-divider class="my-2"/> -->
-                    <div class="text-uppercase blue--text">Outras características...</div>
+                   
                     <v-divider class="my-2"/>
                     <div class="text-uppercase text-h4 mt-6 blue--text">
                     <v-img
+                    src="@/assets/img/eth.png"
+                    max-width="20px"
+                    class="mr-2"
+                  /> <v-img
                     src="@/assets/img/icon2.svg"
                     max-width="20px"
                     class="mr-2"
-                  />Matic 5</div>
+                  />1 ETH
+                    </div>
                     <v-btn
                         v-bind="size"
                         rounded
@@ -119,7 +140,7 @@
                         color="blue"
                         class="mt-6"
                     >
-                      <a href="https://opensea.io/">Purchase</a>
+                      <a style="text-decoration:none" href="https://opensea.io/assets/matic/0x2562ffa357fbdd56024aea7d8e2111ad299766c9/10">Purchase</a>
                     </v-btn>
                   </v-card-text>
                 </div>

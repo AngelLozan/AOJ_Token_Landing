@@ -61,19 +61,19 @@
       />
       <div v-else>
         <v-btn text @click="$vuetify.goTo('#hero')">
-          <span class="mr-2">Home</span>
+          <span class="mr-2 font-weight-bold">Home</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#features')">
-          <span class="mr-2">About</span>
+          <span class="mr-2 font-weight-bold">About</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#download')">
-          <span class="mr-2">Shop</span>
+          <span class="mr-2 font-weight-bold">Shop</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#pricing')">
-          <span class="mr-2">NFTs</span>
+          <span class="mr-2 font-weight-bold">NFTs</span>
         </v-btn>
         <v-btn rounded outlined text @click="$vuetify.goTo('#contact')">
-          <span class="mr-2">Contact Me</span>
+          <span class="mr-2 font-weight-bold">Contact Me</span>
         </v-btn>
       </div>
     </v-app-bar>

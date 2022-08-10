@@ -1,16 +1,18 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/bgHero.png" height="850">
+    <v-parallax dark src="@/assets/img/back.jpeg" height="850">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">AOJ Token Launch 🚀</h1>
-              <h1 class="font-weight-light">
-                Jaleh Sadravi works out <br /> of her home studio <br /> 
-                and participates in several <br />
-                 group and solo exhibitions <br /> each year. 
-                 Her work is <br /> found in collections around <br /> the world.  <br />
+              <h1 class="display-2 font-weight-bold mb-4">AOJ Token Launch</h1>
+              <h1 class="font-weight-bold">
+                Presenting the official <br/>
+                 NFT line of Jaleh Sadravi. <br />
+                 She is excited to <br/>
+                take her work onto <br/> 
+                the blockchain  for her <br/> 
+                community!
               </h1>
               <v-btn
                 rounded
@@ -98,7 +100,7 @@
                   :elevation="hover ? 10 : 4"
                   :class="{ up: hover }"
                 >
-                  <v-img
+                    <v-img
                     :src="feature.img"
                     max-width="100px"
                     class="d-block ml-auto mr-auto"
@@ -106,7 +108,7 @@
                   ></v-img>
                   <h1 class="font-weight-regular">{{ feature.title }}</h1>
                   <h4 class="font-weight-regular subtitle-1">
-                    {{ feature.text }}
+                    {{ feature.text }} 
                   </h4>
                 </v-card>
               </v-hover>
@@ -147,7 +149,7 @@ export default {
           img: require("@/assets/img/icon1.png"),
           title: "Listed on OpenSea",
           text: "Listed on OpenSea, worlds leading Ethereum & Polygon NFT platform.",
-          url: "https://opensea.io/"
+          href: "https://opensea.io/"
         },
         {
           img: require("@/assets/img/icon3.png"),

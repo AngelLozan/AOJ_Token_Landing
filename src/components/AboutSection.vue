@@ -11,9 +11,9 @@
               </h1>
               <v-row>
                 <v-col cols="12" class="d-flex align-center">
-                  <a href="https://opensea.io/">
+                  <a href="https://opensea.io/theartofJalehV2">
                   <v-img
-                    src="https://storage.googleapis.com/opensea-static/Logomark/Logomark-Blue.svg"
+                    src="@/assets/img/icon1.png"
                     max-width="60px"
                     class="mr-4"
                   />
@@ -35,7 +35,7 @@
                   </p>
                 </v-col>
                 <v-col cols="12" class="d-flex align-center">
-                  <a href="https://magiceden.io/marketplace/">
+                  <a href="https://solsea.io/collection/622b3289a96d88068ddc97d5">
                   <v-img
                     src="@/assets/img/icon3.svg"
                     max-width="60px"
